@@ -1,13 +1,26 @@
 body {
-    background-image: url("coffee-beans-top-view-white-background-space-text.jpg"); no-repeat center center fixed;
+    background-image: url("coffee-beans-top-view-white-background-space-text.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .theman {
 
     height: 110px;
     width: 120px;
+}
+
+.title {
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.some {
+    height: 3em;
+}
 }
